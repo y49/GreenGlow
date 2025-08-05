@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /products
+Allow: /files/
+Disallow: /private/

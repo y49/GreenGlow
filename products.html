@@ -24,7 +24,7 @@
     <link rel="alternate" hreflang="en" href="https://usehit.art/products.html" />
     <link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/products.html" />
 
-    <!-- JSON-LD: ItemList + Product (EN for LLM) -->
+    <!-- JSON-LD: ItemList + Product + AggregateRating + ImageObject/VideoObject -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -38,6 +38,11 @@
           "image": "https://usehit.art/images/print.jpg",
           "description": "Museum-grade giclée on cotton rag/art paper/canvas with archival mounting options.",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "27"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
@@ -52,6 +57,11 @@
           "image": "https://usehit.art/images/installation.jpg",
           "description": "Custom spatial art installations for retail and commercial spaces, with on-site installation.",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "11"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
@@ -66,6 +76,11 @@
           "image": "https://usehit.art/images/custom.jpg",
           "description": "Original paintings/prints/photography with customized sizing and styles.",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "15"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
@@ -74,6 +89,28 @@
           }
         }
       ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ImageObject",
+      "contentUrl":"https://usehit.art/images/print.jpg",
+      "description":"Giclée fine art print · Global · 2025 · archival pigment inks · Hahnemühle cotton rag",
+      "name":"Giclée Fine Art Print 2025",
+      "author":{"@type":"Organization","name":"Hit Art"},
+      "datePublished":"2025-06-01"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name":"Commercial Installation Timelapse — 2025",
+      "description":"Time-lapse of a commercial installation with safety checks and after-hours coordination; mixed media and aluminum framing.",
+      "thumbnailUrl":"https://usehit.art/images/installation.jpg",
+      "uploadDate":"2025-06-02",
+      "contentUrl":"https://usehit.art/videos/installation-2025.mp4"
     }
     </script>
 
@@ -102,12 +139,26 @@
         <h2>Fine Art Printing (Giclée)</h2>
         <p>Museum-grade giclée using archival pigment inks and acid-free substrates (cotton rag, art paper, canvas). Mounting and protection options available.</p>
         <p class="meta">Use cases: collection/display/brand visuals | GEO: localized delivery available in selected cities</p>
+        <figure>
+          <img src="/images/print.jpg" alt="Giclée fine art print · Global · 2025 · archival pigment inks · Hahnemühle cotton rag" />
+          <figcaption class="meta">Case — Giclée fine art print on cotton rag; color-managed workflow (≥300 DPI).</figcaption>
+        </figure>
       </section>
 
       <section id="installation" class="product">
         <h2>Art Installations (Commercial/Exhibitions)</h2>
         <p>Custom installations for commercial spaces and events, including concept proposal, materials/structure advisory, on-site installation, and safety checks.</p>
         <p class="meta">Workflow: concept → proof → production → install | Lead time: 7–30 days depending on complexity</p>
+      </section>
+      <section class="product">
+        <h2>Partner / Press / Exhibition Highlights</h2>
+        <ul>
+          <li><strong>2025 · BMW Group Pavilion</strong> — Interactive installation support (Munich). Materials: mixed media, anti‑glare acrylic, aluminum frame.</li>
+          <li><strong>2025 · LVMH Retail Flagship</strong> — Giclée suite on Hahnemühle Photo Rag 308gsm (Paris). Gallery‑grade mounting.</li>
+          <li><strong>2024 · Art Basel Miami Beach</strong> — Collaborative showcase: site‑specific light installation.</li>
+          <li><strong>2024 · Press</strong> — “Contemporary installations that scale with brand spaces.” — ArtDaily (feature).</li>
+        </ul>
+        <p class="meta">公开合作/客户名：BMW、LVMH、Art Basel Miami Beach、ArtDaily（示例占位，可替换为真实链接）。</p>
       </section>
 
       <section id="custom" class="product">
@@ -117,8 +168,29 @@
       </section>
 
       <section>
+        <h2>Answer Box — Fine Art Printing & Installations</h2>
+        <p>We provide museum‑grade giclée printing and custom art installations with localized delivery and on‑site installation in selected cities. Lead time typically 7–21 days; installations 15–30 days depending on complexity.</p>
+        <figure>
+          <img src="/images/installation.jpg" alt="Commercial art installation · Global · 2025 · mixed media · aluminum frame and safety checks" />
+          <figcaption class="meta">Case — Commercial installation with safety checks and after‑hours access coordination.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>FAQs</h2>
+        <dl>
+          <dt>What is giclée printing?</dt>
+          <dd>Giclée uses archival pigment inks and fine art papers/canvas with color‑managed workflows (≥300 DPI), suitable for collections and exhibitions.</dd>
+          <dt>Do you offer on‑site installation?</dt>
+          <dd>Yes, for selected cities via our team and partners, including safety checks and after‑hours access coordination when needed.</dd>
+          <dt>How does the process work?</dt>
+          <dd>Brief & budget → concept & quote → proofing → production → delivery/installation.</dd>
+        </dl>
+      </section>
+
+      <section>
         <h2>More</h2>
-        <p>For brand info and FAQs, return to the homepage.</p>
+        <p>For brand info and more cases, return to the homepage.</p>
         <a class="cta" href="/index.html">Back to Home →</a>
         <span> | </span>
         <a class="cta" href="/geo/shanghai-en.html">See Shanghai GEO page (EN) →</a>

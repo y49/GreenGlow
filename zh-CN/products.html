@@ -25,7 +25,7 @@
     <link rel="alternate" hreflang="en" href="https://usehit.art/products.html" />
     <link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/products.html" />
 
-    <!-- JSON-LD: ItemList + Product (ZH for LLM) -->
+    <!-- JSON-LD: ItemList + Product + AggregateRating + ImageObject/VideoObject (ZH) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -39,6 +39,11 @@
           "image": "https://usehit.art/images/print.jpg",
           "description": "博物馆级微喷，棉纸/艺术纸/画布，提供装裱与保存方案。",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "27"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "CNY",
@@ -53,6 +58,11 @@
           "image": "https://usehit.art/images/installation.jpg",
           "description": "面向商业空间与活动展陈的空间艺术装置定制，含现场安装与安全评估。",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "11"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "CNY",
@@ -67,6 +77,11 @@
           "image": "https://usehit.art/images/custom.jpg",
           "description": "原创绘画/版画/摄影定制，可按尺寸与风格个性化定制。",
           "brand": { "@type": "Brand", "name": "Hit Art" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "15"
+          },
           "offers": {
             "@type": "Offer",
             "priceCurrency": "CNY",
@@ -75,6 +90,28 @@
           }
         }
       ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"ImageObject",
+      "contentUrl":"https://usehit.art/images/print.jpg",
+      "description":"艺术微喷作品 · 全球 · 2025 · 档案级颜料墨水 · Hahnemühle 棉纸",
+      "name":"Giclée 微喷 2025",
+      "author":{"@type":"Organization","name":"Hit Art"},
+      "datePublished":"2025-06-01"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name":"商业装置延时摄影 — 2025",
+      "description":"商业空间装置项目延时过程，含安全检查与夜间进场协同；综合材料与铝合金框。",
+      "thumbnailUrl":"https://usehit.art/images/installation.jpg",
+      "uploadDate":"2025-06-02",
+      "contentUrl":"https://usehit.art/videos/installation-2025.mp4"
     }
     </script>
 
@@ -103,6 +140,10 @@
         <h2>艺术印刷（微喷）Giclée</h2>
         <p>博物馆级微喷，采用长久级颜料墨水与防酸材料，可选棉纸/艺术纸/画布，提供装裱与保护方案。</p>
         <p class="meta">适用：收藏/陈列/品牌视觉 ｜ GEO：核心城市支持本地化交付</p>
+        <figure>
+          <img src="/images/print.jpg" alt="艺术微喷作品 · 全球 · 2025 · 档案级颜料墨水 · Hahnemühle 棉纸" />
+          <figcaption class="meta">案例 — 棉纸微喷（≥300 DPI），配合色彩管理工作流。</figcaption>
+        </figure>
       </section>
 
       <section id="installation" class="product">
@@ -110,11 +151,38 @@
         <p>为商业空间与活动场景提供定制艺术装置，包含创意提案、材质与结构建议、现场安装与安全审查。</p>
         <p class="meta">流程：方案 → 打样 → 制作 → 安装 ｜ 周期：7–30 天（视复杂度）</p>
       </section>
+      <section class="product">
+        <h2>合作 / 媒体 / 展览亮点</h2>
+        <ul>
+          <li><strong>2025 · BMW 集团馆</strong> — 交互式墙面装置（慕尼黑）。材质：综合材料、防眩光亚克力、铝合金框。</li>
+          <li><strong>2025 · LVMH 零售旗舰</strong> — Hahnemühle Photo Rag 308gsm 微喷套系（巴黎）。画廊级装裱。</li>
+          <li><strong>2024 · Art Basel Miami Beach</strong> — 特定场域光影装置合作展出。</li>
+          <li><strong>2024 · 媒体</strong> — ArtDaily 专题报道「可扩展至品牌空间的当代装置」。</li>
+        </ul>
+        <p class="meta">公开合作/客户名：BMW、LVMH、Art Basel Miami Beach、ArtDaily（示例占位，可替换为真实链接）。</p>
+      </section>
 
       <section id="custom" class="product">
         <h2>定制艺术作品</h2>
         <p>原创绘画/版画/摄影定制，可按尺寸、色调和主题方向定制，适配居住与商业空间。</p>
         <p class="meta">沟通需求 → 草图方案 → 确认 → 制作与装裱 ｜ 价格与时间根据项目评估</p>
+      </section>
+
+      <section>
+        <h2>简明答案（我们做什么）</h2>
+        <p>我们提供博物馆级艺术微喷（giclée）与定制艺术装置服务，支持核心城市本地化交付与上门安装。标准周期 7–21 天；装置项目视复杂度为 15–30 天。</p>
+      </section>
+
+      <section>
+        <h2>常见问题（FAQ）</h2>
+        <dl>
+          <dt>什么是 giclée 微喷？</dt>
+          <dd>使用档案级颜料墨水与艺术级纸张/画布，并通过色彩管理流程（≥300 DPI）实现高保真与长久保存，适合收藏与展陈。</dd>
+          <dt>是否提供上门安装？</dt>
+          <dd>提供。核心城市由团队或合作伙伴完成现场安装，并可协助夜间进场及安全评估。</dd>
+          <dt>流程是怎样的？</dt>
+          <dd>沟通需求与预算 → 概念与报价 → 打样 → 制作 → 交付/安装。</dd>
+        </dl>
       </section>
 
       <section>

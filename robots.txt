@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /products
-Allow: /files/
+Allow: /
 Disallow: /private/
+# 允许索引主要页面与静态资源，若需限制可按需细分
+# 若需禁止抓取某些查询参数，可添加：Disallow: /*?*
+Sitemap: https://usehit.art/sitemap.xml

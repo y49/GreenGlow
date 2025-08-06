@@ -1,24 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <!-- Homepage (EN default) -->
   <url>
-    <loc>https://www.userhit.art</loc>
-    <lastmod>2025-08-04</lastmod>
+    <loc>https://usehit.art/</loc>
+    <lastmod>2025-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/index.html"/>
   </url>
 
-  <!-- Products page -->
+  <!-- Homepage (ZH-CN) -->
   <url>
-    <loc>https://www.userhit.art/products.html</loc>
-    <lastmod>2025-08-04</lastmod>
+    <loc>https://usehit.art/zh-CN/index.html</loc>
+    <lastmod>2025-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/index.html"/>
   </url>
 
-  <!-- PDF file link -->
+  <!-- Products (EN) -->
   <url>
-    <loc>https://www.userhit.art/files/solarlux-products.pdf</loc>
+    <loc>https://usehit.art/products.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/products.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/products.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/products.html"/>
+  </url>
+
+  <!-- Products (ZH-CN) -->
+  <url>
+    <loc>https://usehit.art/zh-CN/products.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/products.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/products.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/zh-CN/products.html"/>
+  </url>
+
+  <!-- GEO: Shanghai (EN) -->
+  <url>
+    <loc>https://usehit.art/geo/shanghai-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/shanghai-en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/geo/shanghai.html"/>
+  </url>
+
+  <!-- GEO: Shanghai (ZH-CN) -->
+  <url>
+    <loc>https://usehit.art/geo/shanghai.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/shanghai-en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://usehit.art/geo/shanghai.html"/>
+  </url>
+
+  <!-- GEO: North America (EN) -->
+  <url>
+    <loc>https://usehit.art/geo/new-york-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.84</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/new-york-en.html"/>
+  </url>
+  <url>
+    <loc>https://usehit.art/geo/los-angeles-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.84</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/los-angeles-en.html"/>
+  </url>
+  <url>
+    <loc>https://usehit.art/geo/san-francisco-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.83</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/san-francisco-en.html"/>
+  </url>
+  <url>
+    <loc>https://usehit.art/geo/seattle-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/seattle-en.html"/>
+  </url>
+  <url>
+    <loc>https://usehit.art/geo/toronto-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/toronto-en.html"/>
+  </url>
+  <url>
+    <loc>https://usehit.art/geo/vancouver-en.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/vancouver-en.html"/>
+  </url>
+
+  <!-- GEO: Beijing (placeholders; pair later when pages exist) -->
+  <url>
+    <loc>https://usehit.art/geo/beijing.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://usehit.art/geo/shenzhen.html</loc>
+    <lastmod>2025-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- PDF -->
+  <url>
+    <loc>https://usehit.art/files/solarlux-products.pdf</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.60</priority>

@@ -1,0 +1,16 @@
+Created 5 of 6 requested North America EN GEO pages. One remaining page to add: Reminder — Verify if a "Toronto" or "Vancouver" variation needs localization notes. All created pages share consistent JSON-LD (LocalBusiness, FAQPage, BreadcrumbList), OG meta, Entities hints, and References for LLM grounding.
+
+Added pages:
+- /geo/new-york-en.html
+- /geo/los-angeles-en.html
+- /geo/san-francisco-en.html
+- /geo/seattle-en.html
+- /geo/toronto-en.html
+- /geo/vancouver-en.html
+
+Next steps planned:
+- Update sitemap.xml with the 6 EN GEO pages and reciprocal xhtml:link when ZH versions are added.
+- Add internal links from /index.html and /products.html to all new EN GEO pages, grouped under “North America”.
+- Optional: Add zh-CN counterparts later and pair in sitemap.
+
+This file is a helper note; safe to delete after verification.

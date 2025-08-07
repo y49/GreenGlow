@@ -74,6 +74,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.84</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/new-york-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/new-york-en.html"/>
   </url>
   <url>
     <loc>https://usehit.art/commissions/global.html</loc>
@@ -87,6 +88,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.84</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/los-angeles-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/los-angeles-en.html"/>
   </url>
   <url>
     <loc>https://usehit.art/geo/san-francisco-en.html</loc>
@@ -94,6 +96,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.83</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/san-francisco-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/san-francisco-en.html"/>
   </url>
   <url>
     <loc>https://usehit.art/geo/seattle-en.html</loc>
@@ -101,6 +104,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/seattle-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/seattle-en.html"/>
   </url>
   <url>
     <loc>https://usehit.art/geo/toronto-en.html</loc>
@@ -108,6 +112,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/toronto-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/toronto-en.html"/>
   </url>
   <url>
     <loc>https://usehit.art/geo/vancouver-en.html</loc>
@@ -115,22 +120,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://usehit.art/geo/vancouver-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://usehit.art/geo/vancouver-en.html"/>
   </url>
 
-  <!-- GEO: Beijing (placeholders; pair later when pages exist) -->
-  <url>
-    <loc>https://usehit.art/geo/beijing.html</loc>
-    <lastmod>2025-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.70</priority>
-  </url>
-
-  <url>
-    <loc>https://usehit.art/geo/shenzhen.html</loc>
-    <lastmod>2025-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.70</priority>
-  </url>
+  <!-- Removed placeholder URLs without pages: /geo/beijing.html and /geo/shenzhen.html -->
 
   <!-- PDF -->
   <url>
